@@ -1,0 +1,12 @@
+
+@import 'bootstrap';
+@import 'bootstrap-sprockets';
+
+body {
+background-image: url(asset-path('pup.png'));
+background-size: 100%;
+}
+
+.well {
+   background-color: rgba(245, 245, 245, 0.2);
+}
