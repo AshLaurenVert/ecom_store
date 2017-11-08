@@ -2,9 +2,16 @@
 @import 'bootstrap';
 @import 'bootstrap-sprockets';
 
-body {
-background-image: url(asset-path('pup.png'));
-background-size: 100%;
+
+.jumbotron {
+	background-image: url(asset-path('longcat.jpeg'));
+    background-position: 0% 25%;
+    background-size: cover;
+    background-position: center-top;
+    background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 400px;
 }
 
 .well {
